@@ -2,7 +2,7 @@ file_obj=open("C:/New folder/python.txt","r+")
 
 print(file_obj.read())
 
-temp = file_obj.write("arpit")
+temp = file_obj.write("arpit\nkyushh\n")
 
 
 
