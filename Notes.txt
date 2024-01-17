@@ -1,0 +1,74 @@
+python program
+
+1=write a function to multiply all the number in a list.
+2=write a program to reverse a string.
+3=write a program to claculate a factorial of a number which is a non negative integer by using a function the function accept a number as an argument.
+4=write a program to get a string made of the first two and the last two character of a given string.if the string length is less then two return the empty string.
+5=write a program to add ing in at the end of given string if the length is atlest 3.
+(i)if the given string alredy end with ing and place ly in place of it.
+(ii)if the string lenghth of the given string is less then 3 leave it unchanged
+
+
+_________________________________________________________________________________________________________________________________________
+
+
+08 NOVEMBER 2023
+
+
+-->LAMBDA function
+-->lambda p1,p2:condition
+
+
+
+_________________________________________________________________________________________________________________________________________
+
+UNIT 4
+
+file pointer
+
+1. tell()
+
+Syntax-- file_obj.tell()
+
+ab=open("location.txt","r")
+
+
+the tell function identifies the current postion of the pointer that means from where the pointer will start to read when the reading operation is perform.
+
+2. seek()
+this function is used to change the pointer position and it will move the pointer to the bite value thet we pass to it.
+Syntax-
+
+print(ab.readline())
+print(ab.tell())
+ab.seek(6)
+print(ab.read(5))
+ab.close
+
+questions
+
+1. wapp to find the longest word in the file and get the file name from the user.
+2. wapp to read and print each line from any file of your choice use in readline function.
+3. wapp to count the total number of uppercase leter and lowercase and digit used in the given text file(creat your own text file).
+4. wapp to reverse each word in a file. 
+
+_________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________
+
+UNIT 5
+
+
+Modules and Packages
+
+MODULES-->
+
+they are general python file that conatain a set of functions classes,and methods.
+each domain has it own function who to achieve an output
+
+Advantages-
+
+1. reusebality-modules once created can be called with in another piece of program to perform any operation.
+2. easy to use -it ideally focus on achieving or solving a part of a biger problem.
+3. scope - in a piece of program a programmer can called multiple modules.
+
+

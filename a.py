@@ -1,4 +1,4 @@
-file_obj=open("C:/New folder/python.txt","r+")
+file_obj=open("D:/VS CODE/python/work.txt","r+")
 
 print(file_obj.read())
 
