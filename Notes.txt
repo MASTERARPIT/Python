@@ -72,3 +72,51 @@ Advantages-
 3. scope - in a piece of program a programmer can called multiple modules.
 
 
+built in modules 
+1. math
+2. cmath
+3. Decimal
+4. random
+5. statistics
+
+23jan2024:
+
+Packages::
+
+A package in python is a folder where we can have multiple number of python file. it should contain a file with a name (_init_.py). It menas that 
+the folder in the file system which contain this file will we consider as package.
+
+Creating a package::
+
+1. we need to creat a directory and give it a suitable name matching with the function that we are going to perform with the package.
+2. once the directory is created we can add multiple modules 
+3. now creat a file (_init_.py) in order to make python understand that it is a package. This file can we empaty or it can conatain some code as well.
+
+_________________________________________________________________________________________________________________________________________
+
+NUMPY::
+
+->it stand for numeric python it is a python library used for working with arrays.
+->in NUMPY the array size is fixed and once created it can not be modify.
+->function perform with NUMPY are 
+
+1. mathematical and logical operation
+2. foriour transform
+3. linear algebric operation
+4. random number generation
+
+Syntax::
+
+import numpy as np
+
+array_one = np.array([10,11,12])
+array_two = np.array([1,2,3],[4,5,6])
+
+print(array_one)
+print(array_two)
+
+print(type(array_two))
+print(array_two.ndm) #dimension
+print(array_two.size)
+print(array_two.dtype)
+print(array_two.nbytes)
