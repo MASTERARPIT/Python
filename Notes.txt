@@ -120,3 +120,9 @@ print(array_two.ndm) #dimension
 print(array_two.size)
 print(array_two.dtype)
 print(array_two.nbytes)
+
+
+
+question::
+
+1. 
