@@ -125,4 +125,12 @@ print(array_two.nbytes)
 
 question::
 
-1. 
+Q 1. Using numpy module take 2 arrays and input 5 elements each. Now perform basic operation such as::
+1. add 5 in each element of the array 1
+2. multiply 10 with each element of array 2
+3. sum of all array element of array 1 
+4. sum of both the array element
+5. Calculate the largest element in array in array 1 and smallest element in array 2.
+
+Q 2. Create a program to reverse a numpy array 
+Q 3. create a program to check whether the numpy array contain a specified row.
