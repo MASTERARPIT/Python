@@ -92,7 +92,8 @@ Creating a package::
 2. once the directory is created we can add multiple modules 
 3. now creat a file (_init_.py) in order to make python understand that it is a package. This file can we empaty or it can conatain some code as well.
 
-_________________________________________________________________________________________________________________________________________
+________________________________________________________________________________
+
 
 NUMPY::
 
@@ -134,3 +135,22 @@ Q 1. Using numpy module take 2 arrays and input 5 elements each. Now perform bas
 
 Q 2. Create a program to reverse a numpy array 
 Q 3. create a program to check whether the numpy array contain a specified row.
+
+_________________________________________________________________________________
+
+
+Scipy:-
+-------
+    it is an open source package that can be use freely it is a lib that stands for scientefic python and provides more mathematcial operation with numpy underneath. scipy has optimise functions that are frequinty use in numpy and data science.
+
+Pandas:-
+--------
+    It is lib use for working with data sets it is an open source python library that provides functions for high performance data analyising cleanig, exploring and manipulation using its powerfull data structures.
+
+serires:
+--------
+    it is a 1d array structutes define in pandas which can be visualised as a colomn in excell sheet it has index values as the axis labels and can be us to store data of any tyoe inclusing string, integer, float and python object.
+
+Data frames:-
+-------------
+    It is a 2d structure that consist of rows and column and use to store any type of data.
