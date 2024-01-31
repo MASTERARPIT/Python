@@ -9,8 +9,7 @@ python program
 (ii)if the string lenghth of the given string is less then 3 leave it unchanged
 
 
-_________________________________________________________________________________________________________________________________________
-
+__________________________________________________________________________________________________________________________
 
 08 NOVEMBER 2023
 
@@ -20,7 +19,7 @@ ________________________________________________________________________________
 
 
 
-_________________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________ 
 
 UNIT 4
 
@@ -138,7 +137,6 @@ Q 3. create a program to check whether the numpy array contain a specified row.
 
 _________________________________________________________________________________
 
-
 Scipy:-
 -------
     it is an open source package that can be use freely it is a lib that stands for scientefic python and provides more mathematcial operation with numpy underneath. scipy has optimise functions that are frequinty use in numpy and data science.
@@ -154,3 +152,62 @@ serires:
 Data frames:-
 -------------
     It is a 2d structure that consist of rows and column and use to store any type of data.
+__________________________________________________________________
+
+Tkinter:-
+---------
+-> It is a standard library for creating the graphical user interphase for desktop based applications.
+
+-> Steps to create a Tkinter top level window :-
+
+1. Import the Tkinter modulue
+2. Create the application window 
+3. Add the widgets like labels,buttons and frames to the window 
+4. Call that main event loop so that the actions that can take place on the users computer screens.
+
+Tkinter widgets:
+1. Buttons
+2. Canvas
+3. CheckButtons
+4. Entry 
+5. Frame
+6. labels
+7. Listbox
+8. Menubuttons
+9. Menu 
+10. Message
+11. Radio button
+12. SCale 
+13 Scrollbar
+14. Text 
+15. Toplevel
+16. Spinbox
+17. Labelframe
+18. Messagebox
+19. Pankedwindow
+
+
+Python Tkinter Geometery:- 
+--------------------------
+The tkinter geometry works on three diferrent methods:-
+
+
+1. The Pack Method:- It is use to organise any widgets in a block.
+
+   Syntax:- Widgets.pack( options )
+
+    i. Expand:- if the expand options is said to be true the widgets expands to fill any space.
+    ii. Fill:- by default the fill is set to none, however we can set it to x or y to determine wehter the widget contais any extra space 
+    iii. size:- it represent the size of the parents to which the widgets is to place on the window.
+
+eg >
+
+parent = Tk()
+redbutton = Button(parent,text="Red",fg="red")
+redbutton.pack(side=LEFT)
+blackbutton = Button(parent, text="Black",fg="Black")
+blackbutton.pack(side=RIGHT)
+parent.mainloop()
+
+
+
