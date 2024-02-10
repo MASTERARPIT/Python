@@ -42,7 +42,11 @@
 # df = pd.DataFrame(dict)
 # print(df)
 
+
+#__________________________________________________________________________________________
+
 from tkinter import *
+
 
 # top = Tk()
 # top.mainloop()
@@ -67,8 +71,9 @@ from tkinter import *
 # submit=Button(parent,text="Submit").grid(row=4,column=0)
 
 
-
+# import tkinter as tk
 top = Tk()
+
 top.geometry("400x250")
 name=Label(top,text="Name").place(x=30,y=50)
 email=Label(top,text="Email").place(x=30,y=90)

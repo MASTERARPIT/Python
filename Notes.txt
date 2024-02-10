@@ -9,7 +9,7 @@ python program
 (ii)if the string lenghth of the given string is less then 3 leave it unchanged
 
 
-__________________________________________________________________________________________________________________________
+___________________________________________________________________________________________
 
 08 NOVEMBER 2023
 
@@ -19,7 +19,7 @@ ________________________________________________________________________________
 
 
 
-__________________________________________________________________________________________________________________________ 
+___________________________________________________________________________________________
 
 UNIT 4
 
@@ -51,8 +51,7 @@ questions
 3. wapp to count the total number of uppercase leter and lowercase and digit used in the given text file(creat your own text file).
 4. wapp to reverse each word in a file. 
 
-_________________________________________________________________________________________________________________________________________
-_________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________
 
 UNIT 5
 
@@ -89,9 +88,9 @@ Creating a package::
 
 1. we need to creat a directory and give it a suitable name matching with the function that we are going to perform with the package.
 2. once the directory is created we can add multiple modules 
-3. now creat a file (_init_.py) in order to make python understand that it is a package. This file can we empaty or it can conatain some code as well.
+3. now creat a file (_init_.py) in order to make python understand that it is a package. This file can we empty or it can contain some code as well.
 
-________________________________________________________________________________
+___________________________________________________________________________________________
 
 
 NUMPY::
@@ -135,7 +134,7 @@ Q 1. Using numpy module take 2 arrays and input 5 elements each. Now perform bas
 Q 2. Create a program to reverse a numpy array 
 Q 3. create a program to check whether the numpy array contain a specified row.
 
-_________________________________________________________________________________
+___________________________________________________________________________________________
 
 Scipy:-
 -------
@@ -145,14 +144,14 @@ Pandas:-
 --------
     It is lib use for working with data sets it is an open source python library that provides functions for high performance data analyising cleanig, exploring and manipulation using its powerfull data structures.
 
-serires:
+series:
 --------
-    it is a 1d array structutes define in pandas which can be visualised as a colomn in excell sheet it has index values as the axis labels and can be us to store data of any tyoe inclusing string, integer, float and python object.
+    it is a 1d array structutes define in pandas which can be visualised as a colomn in excell sheet it has index values as the axis labels and can be us to store data of any type inclusing string, integer, float and python object.
 
 Data frames:-
 -------------
     It is a 2d structure that consist of rows and column and use to store any type of data.
-__________________________________________________________________
+___________________________________________________________________________________________
 
 Tkinter:-
 ---------
