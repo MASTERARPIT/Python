@@ -11,11 +11,12 @@ ab = open("D:/VS CODE/python/work.txt","r")
 
 # seek function
 
-print()
-print(ab.readline())
-print(ab.tell())
-print(ab.seek(6))
+
+# print(ab.readlines())
+# print(ab.tell())
+print(ab.seek(2))
 print(ab.read(5))
-ab.close
+# print(ab.read())
+
 
 ab.close()

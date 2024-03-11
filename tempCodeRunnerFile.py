@@ -1,1 +1,1 @@
-ab.close
+print(data)
